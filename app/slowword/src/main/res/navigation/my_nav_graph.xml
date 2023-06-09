@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_nav_graph"
+    app:startDestination="@id/mainFragment">
+
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="com.example.slowword.fragment.MainFragment"
+        android:label="主页"
+        tools:layout="@layout/fragment_main" >
+        <action
+            android:id="@+id/action_mainFragment_to_articleFragment"
+            app:destination="@id/articleFragment" />
+        <action
+            android:id="@+id/action_mainFragment_to_wordFragment"
+            app:destination="@id/wordFragment" />
+        <action
+            android:id="@+id/action_mainFragment_to_myFragment"
+            app:destination="@id/myFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/articleFragment"
+        android:name="com.example.slowword.fragment.ArticleFragment"
+        android:label="阅读"
+        tools:layout="@layout/fragment_article" >
+        <action
+            android:id="@+id/action_articleFragment_to_mainFragment"
+            app:destination="@id/mainFragment" />
+        <action
+            android:id="@+id/action_articleFragment_to_wordFragment"
+            app:destination="@id/wordFragment" />
+        <action
+            android:id="@+id/action_articleFragment_to_myFragment"
+            app:destination="@id/myFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/wordFragment"
+        android:name="com.example.slowword.fragment.WordFragment"
+        android:label="单词"
+        tools:layout="@layout/fragment_word" >
+        <action
+            android:id="@+id/action_wordFragment_to_articleFragment"
+            app:destination="@id/articleFragment" />
+        <action
+            android:id="@+id/action_wordFragment_to_myFragment"
+            app:destination="@id/myFragment" />
+        <action
+            android:id="@+id/action_wordFragment_to_mainFragment"
+            app:destination="@id/mainFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/myFragment"
+        android:name="com.example.slowword.fragment.MyFragment"
+        android:label="我的锅"
+        tools:layout="@layout/fragment_my" >
+        <action
+            android:id="@+id/action_myFragment_to_wordFragment"
+            app:destination="@id/wordFragment" />
+        <action
+            android:id="@+id/action_myFragment_to_mainFragment"
+            app:destination="@id/mainFragment" />
+        <action
+            android:id="@+id/action_myFragment_to_articleFragment"
+            app:destination="@id/articleFragment" />
+    </fragment>
+</navigation>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ArcticleDisplayActivity"
+    android:orientation="vertical"
+    >
+    <ImageView
+        android:id="@+id/arc_icon"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/art1"
+        />
+
+    <TextView
+        android:id="@+id/arc_title"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="这是一个大标题"
+        android:textSize="26sp"
+        android:layout_marginBottom="20dp"
+        />
+
+    <TextView
+        android:id="@+id/arc_detail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="这是放内容的地方..."
+        android:textSize="16sp"
+        android:scrollbars="vertical"
+        android:layout_marginBottom="10dp"
+        />
+
+</LinearLayout>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFF"
+    tools:context=".MainActivity">
+
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/fragmentApp"
+        android:name="androidx.navigation.fragment.NavHostFragment"
+        android:layout_width="match_parent"
+        android:layout_height="443dp"
+        app:defaultNavHost="true"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:navGraph="@navigation/my_nav_graph" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="4"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/bt_main"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textSize="25sp"
+            android:layout_weight="1"
+            android:background="@drawable/btn"
+            android:text="主页"
+            />
+
+        <Button
+            android:id="@+id/bt_article"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textSize="25sp"
+            android:layout_weight="1"
+            android:background="@drawable/btn"
+            android:text="阅读"
+            />
+
+        <Button
+            android:id="@+id/bt_word"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textSize="25sp"
+            android:layout_weight="1"
+            android:background="@drawable/btn"
+            android:text="单词"
+            />
+
+        <Button
+            android:id="@+id/bt_me"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textSize="25sp"
+            android:layout_weight="1"
+            android:background="@drawable/btn"
+            android:text="Me"
+            />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/bt_setpressed"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:textSize="25sp"
+        android:layout_weight="1"
+        android:background="@drawable/btn_pressed"
+        android:text="Me"
+        />
+
+</LinearLayout>

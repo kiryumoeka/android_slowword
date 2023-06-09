@@ -16,14 +16,14 @@ Gradle版本：7.3.3
 
 Gradle-JDK：17
 
-![image-20230609170400796](D:\RcentDemo\typora-user-images\image-20230609170400796.png)
+![image-20230609170400796](https://github.com/kiryumoeka/android_slowword/blob/main/typora-user-images/image-20230609170400796.png?raw=true)
 
-![image-20230609170433101](D:\RcentDemo\typora-user-images\image-20230609170433101.png)
+![image-20230609170433101](https://github.com/kiryumoeka/android_slowword/blob/main/typora-user-images/image-20230609170433101.png?raw=true)
 
-![image-20230609170452256](D:\RcentDemo\typora-user-images\image-20230609170452256.png)
+![image-20230609170452256](https://github.com/kiryumoeka/android_slowword/blob/main/typora-user-images/image-20230609170452256.png?raw=true)
 
-![image-20230609170508422](D:\RcentDemo\typora-user-images\image-20230609170508422.png)
+![image-20230609170508422](https://github.com/kiryumoeka/android_slowword/blob/main/typora-user-images/image-20230609170508422.png?raw=true)
 
-![image-20230609170520770](D:\RcentDemo\typora-user-images\image-20230609170520770.png)
+![image-20230609170520770](https://github.com/kiryumoeka/android_slowword/blob/main/typora-user-images/image-20230609170520770.png?raw=true)
 
-![image-20230609170540432](D:\RcentDemo\typora-user-images\image-20230609170540432.png)
+![image-20230609170540432](https://github.com/kiryumoeka/android_slowword/blob/main/typora-user-images/image-20230609170540432.png?raw=true)
